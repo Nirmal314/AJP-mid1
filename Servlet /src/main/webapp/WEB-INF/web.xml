@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  version="2.5"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+  <servlet>
+    <servlet-name>Servlet Interface</servlet-name>
+    <servlet-class>servletInterface</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet Interface</servlet-name>
+    <url-pattern>/servletInterface</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>GenericServlet Class</servlet-name>
+    <servlet-class>genServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GenericServlet Class</servlet-name>
+    <url-pattern>/genServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>HttpServlet Class</servlet-name>
+    <servlet-class>httpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HttpServlet Class</servlet-name>
+    <url-pattern>/httpServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
